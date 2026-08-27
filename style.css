@@ -1,0 +1,141 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0ffff, #f5fffa);
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: honeydew;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 65px;
+}
+
+/* Logo */
+nav .logo {
+    color: darkcyan;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Menu */
+nav .menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav .menu li a {
+    color: darkcyan;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+/* Menu Hover */
+nav .menu li a:hover {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 7px;
+}
+
+/* Login Box */
+.login-box {
+    width: 400px;
+    padding: 40px;
+    background-color: white;
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* User Icon */
+.user-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkcyan;
+    color: white;
+
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+/* Heading */
+.login-box h1 {
+    color: darkcyan;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.login-box p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+/* Input Focus */
+.login-box input:focus {
+    border-color: darkcyan;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 14px;
+
+    background-color: darkcyan;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* Button Hover */
+.login-box button:hover {
+    background-color: #006666;
+}
